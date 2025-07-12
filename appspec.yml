@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+
+files:
+  - source: /
+    destination: /home/ec2-user/terraform-deploy
+
+hooks:
+  AfterInstall:
+    - location: run-terraform.sh
+      timeout: 600
+      runas: ec2-user
