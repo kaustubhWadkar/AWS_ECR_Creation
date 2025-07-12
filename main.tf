@@ -10,9 +10,9 @@ resource "aws_ecr_repository" "terra_ecr" {
   }
 
   tags = {
-    Application = "ECR-Images_builder"
-    Billing     = "yes"
-    check_change = "yes"
+    Application = "infra_change"
+    Billing     = "no"
+    check_change = "no"
     App_owner = "kaustubh"
     authe = "suraj"
     gang = "pistul"
