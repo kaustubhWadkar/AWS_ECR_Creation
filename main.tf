@@ -15,6 +15,7 @@ resource "aws_ecr_repository" "terra_ecr" {
     check_change = "Yes"
     App_owner = "kaustubh"
     authe = "suraj"
+    gang = "pistul"
     
   }
 }
