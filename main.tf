@@ -13,6 +13,8 @@ resource "aws_ecr_repository" "terra_ecr" {
     Application = "infra_change"
     Billing     = "yes"
     check_change = "Yes"
+    App_owner = "kaustubh"
+    authe = "suraj"
     
   }
 }
