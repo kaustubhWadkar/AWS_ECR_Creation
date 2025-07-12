@@ -10,6 +10,6 @@ resource "aws_ecr_repository" "terra_ecr" {
   }
 
   tags = {
-    Environment = "uat"
+    Environment = "prod"
   }
 }
