@@ -12,6 +12,6 @@ resource "aws_ecr_repository" "terra_ecr" {
   tags = {
     Application = "infra_change"
     Billing     = "yes"
-    App_own = "Kaustubh"
+    
   }
 }
