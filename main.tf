@@ -11,8 +11,8 @@ resource "aws_ecr_repository" "terra_ecr" {
 
   tags = {
     Application = "infra_change"
-    Billing     = "yes"
-    check_change = "Yes"
+    Billing     = "no"
+    check_change = "no"
     App_owner = "kaustubh"
     authe = "suraj"
     gang = "pistul"
