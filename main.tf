@@ -10,12 +10,8 @@ resource "aws_ecr_repository" "terra_ecr" {
   }
 
   tags = {
-    Application = "infra_change"
-    Billing     = "no"
-    check_change = "no"
-    App_owner = "kaustubh"
-    authe = "suraj"
-    gang = "pistul"
+    Application = "Test_application"
+    ENV     = "Test_ENV"
     
   }
 }
