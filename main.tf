@@ -12,6 +12,7 @@ resource "aws_ecr_repository" "terra_ecr" {
   tags = {
     Application = "Test_application"
     ENV     = "Test_ENV"
+    Inuse  = "yes"
     
   }
 }
