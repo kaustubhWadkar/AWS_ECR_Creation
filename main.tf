@@ -13,7 +13,6 @@ resource "aws_ecr_repository" "terra_ecr" {
     Application = "Test_application"
     ENV     = "Test_ENV"
     Inuse  = "yes"
-    test = "test"
     
   }
 }
